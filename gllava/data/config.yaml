@@ -1,0 +1,36 @@
+datasets:
+  # - type: instruct
+  #   ann_file: './playground/MAVIS/MAVIS_Caption/MAVIS_Caption_filter.json'
+  #   img_prefix: './playground/MAVIS/MAVIS_Caption/'
+  #   ratio: 1.0
+  #   conv_temp: 'llava'
+  
+  # - type: instruct
+  #   ann_file: './playground/AutoGeo-100K/dataset_reinforce_100k-debug/data.json'
+  #   img_prefix: './playground/AutoGeo-100K/dataset_reinforce_100k-debug/'
+  #   ratio: 1.0
+  #   conv_temp: 'llava'
+
+  - type: instruct
+    ann_file: './playground/LLaVA-Pretrain/blip_laion_cc_sbu_558k.json'
+    img_prefix: './playground/LLaVA-Pretrain/images/'
+    ratio: 1.0
+    conv_temp: 'llava'
+
+  - type: instruct
+    ann_file: './playground/multimath-300k/caption/chat_train_zh.json'
+    img_prefix: './playground/multimath-300k/RGB_images/'
+    ratio: 1.0
+    conv_temp: 'llava'
+
+  - type: instruct
+    ann_file: './playground/multimath-300k/caption/chat_train_en.json'
+    img_prefix: './playground/multimath-300k/RGB_images/'
+    ratio: 1.0
+    conv_temp: 'llava'
+
+  - type: instruct
+    ann_file: './playground/data/Geo170K/alignment.json'
+    img_prefix: './playground/data/Geo170K/images/'
+    ratio: 1.0
+    conv_temp: 'llava'
