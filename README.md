@@ -2,8 +2,8 @@
 Implementation of the paper Open Eyes, Then Reason: Fine-grained Visual Mathematical Understanding in MLLMs
 ## 🔔 News
 
-- 🔥 **[2024-12-10]:** Released the code for SVE-Math-Qwen2.5-7B.
-## 🛠️ TODO
+- 🎉 **[2024-12-10]:** Released the code for SVE-Math-Qwen2.5-7B.
+## ✨ TODO
 - [x] Release the evaluation code for MultiModal Math Benchmarks.
 - [ ] Release model weights of SVE-Math-7B, SVE-Math-Deepseek-7B and SVE-Math-Qwen2.5-7B.
 - [ ] Release the training code and scripts of GeoGLIP.
@@ -70,6 +70,21 @@ playground/
 │   │   ├── query.json
 │   │   ├── testmini.json
 ```
+## 🌟 Training 
+- **MathV360K**
+
+  Run full-finetuning:
+
+    ```sh run_math360k.sh```
+
+- **Geo170K**
+1. First Stage Alignment: This stage enables the model to better interpret the content of geometric figures.
+   
+   ```bash scripts/run_alignment.sh```
+2. Second Stage Instruction Tuning: This stage equips the model with stronger ability for solving geometry problems.
+   
+   ```bash scripts/run_alignment.sh```
+
 ## 🔮 Evaluations 
 - **MathVista**
   
