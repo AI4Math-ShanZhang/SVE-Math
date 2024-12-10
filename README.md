@@ -20,7 +20,8 @@ This paper introduces SVE-Math, a novel approach to solving visual mathematical 
 ---
 ## 📊 Case studies
 <p align="center">
-  <img src="./images/Appen_synthetic_demo_1.pdf" alt="Example Image" width="400">
+  <img src="./images/demo3.png" alt="Example Image" width="800">
+  <img src="./images/demo2.png" alt="Example Image" width="800">
 </p>
 ## 📦 Installation
 
