@@ -1,7 +1,7 @@
 deepspeed --include=localhost:0,1,2,3,4,5,6,7 gllava/train/train.py \
                                             --mm_projector_lr 1e-5 \
                                             --deepspeed ./scripts/zero2.json \
-                                            --model_name_or_path liuhaotian/llava-v1.5-7b \
+                                            --model_name_or_path ./checkpoints_sve/Qwen2.5_sft_llava \
                                             --version qwen_2 \
                                             --data_path ./playground/data/Geo170K/alignment.json \
                                             --image_folder ./playground/data/Geo170K/images \
