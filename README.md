@@ -23,7 +23,50 @@ This paper introduces SVE-Math, a novel approach to solving visual mathematical 
   <img src="./images/demo3.png" alt="Example Image" width="800">
   <img src="./images/demo2.png" alt="Example Image" width="800">
 </p>
+
 ## 📦 Installation
+* Install Packages
+```
+cd SVE-Math
+conda create -n SVEMath python=3.10 -y
+conda activate SVEMath
+pip install -e .
+```
+* Enable Deepspeed
+```
+pip install deepspeed==0.12.6
+```
+
+## 📖 Data Preparation
+Download datasets to folder ```./playground``` 
+
+Mathematical visual instruction datasets we used for train including [Geo170K](https://huggingface.co/datasets/Luckyjhg/Geo170K/tree/main), [MathV360K](https://huggingface.co/datasets/Zhiqiang007/MathV360K)
+
+Dataset we used for evaluation including [MathVista](https://github.com/lupantech/MathVista), [MathVerse](https://huggingface.co/datasets/AI4Math/MathVerse), GeoQA.
+
+Place the data under playground. Here is the data structure:
+```
+playground/
+├── data/
+│   ├── Geo170K/
+│   │   ├── data/
+│   │   ├── images/
+│   │   ├── alignment.json
+│   │   ├── qa_tuning.json
+│   ├── test_question.jsonl
+│   ├── test_answers.jsonl
+├── MathV360K/
+│   ├── data_images/
+│   ├── train_samples_all_tuning.json
+├── MathVerse/
+│   ├── images/
+│   ├── testmini.json
+├── MathVista/
+│   ├── data/
+│   │   ├── images/
+│   │   ├── query.json
+│   │   ├── testmini.json
+```
 
 ## 🧑‍💻 Acknowledgments
 Special thanks to our collaborators and contributors for their invaluable support in improving the codebase and refining our methods.
