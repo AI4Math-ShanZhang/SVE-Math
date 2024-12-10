@@ -18,7 +18,10 @@ This paper introduces SVE-Math, a novel approach to solving visual mathematical 
 - **State-of-the-Art Results among 7B counterparts**: SVE-Math-Qwen2.5-7B outperforms other 7B models by 12\% on MathVerse and is compatible with GPT-4V on MathVista (50.4\% vs. 49.9\%). Despite being trained on smaller datasets (Geo170K), our method matches the performance of models trained on significantly larger datasets, evaluated on GeoQA (79.6\%). 
 
 ---
-## 📊 Dataset Examples
+## 📊 Case studies
+<p align="center">
+  <img src="./images/Appen_synthetic_demo_1.pdf" alt="Example Image" width="400">
+</p>
 ## 📦 Installation
 
 ## 🧑‍💻 Acknowledgments
