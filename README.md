@@ -83,7 +83,7 @@ playground/
    ```bash scripts/run_alignment.sh```
 2. Second Stage Instruction Tuning: This stage equips the model with stronger ability for solving geometry problems.
    
-   ```bash scripts/run_alignment.sh```
+   ```bash scripts/run_qa.sh```
 
 ## 🔮 Evaluations 
 - **MathVista**
