@@ -1,4 +1,4 @@
-# ![Example Image](./images/example.png) Open Eyes, Then Reason: Fine-grained Visual Mathematical Understanding in MLLMs (SVE-Math)
+# <img src="./images/logo1.png" alt="Example Image" width="36" height="36"> Open Eyes, Then Reason: Fine-grained Visual Mathematical Understanding in MLLMs (SVE-Math)
 Implementation of the paper Open Eyes, Then Reason: Fine-grained Visual Mathematical Understanding in MLLMs
 ## 🔔 News
 
@@ -18,7 +18,7 @@ This paper introduces SVE-Math, a novel approach to solving visual mathematical 
 - **State-of-the-Art Results among 7B counterparts**: SVE-Math-Qwen2.5-7B outperforms other 7B models by 12\% on MathVerse and is compatible with GPT-4V on MathVista (50.4\% vs. 49.9\%). Despite being trained on smaller datasets (Geo170K), our method matches the performance of models trained on significantly larger datasets, evaluated on GeoQA (79.6\%). 
 
 ---
-
+## 📊 Dataset Examples
 ## 📦 Installation
 
 ## 🧑‍💻 Acknowledgments
