@@ -3,6 +3,7 @@ Implementation of the paper Open Eyes, Then Reason: Fine-grained Visual Mathemat
 ## 🔔 News
 
 - 🎉 **[2024-12-10]:** Released the code for SVE-Math-Qwen2.5-7B.
+- 🎉 **[2024-12-12]:** Released the model weights for [GeoGLIP](https://huggingface.co/zs0506/GeoGLIP).
 ## ✨ TODO
 - [x] Release the evaluation code for MultiModal Math Benchmarks.
 - [ ] Release model weights of SVE-Math-7B, SVE-Math-Deepseek-7B and SVE-Math-Qwen2.5-7B.
