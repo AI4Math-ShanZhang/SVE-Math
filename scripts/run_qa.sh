@@ -14,7 +14,7 @@ deepspeed --include=localhost:0,1,2,3,4,5,6,7 gllava/train/train.py \
                                             --image_aspect_ratio pad \
                                             --group_by_modality_length True \
                                             --bf16 True \
-                                            --output_dir ./checkpoints_sve/Qwen2.5_geo170k_qa_tuned \
+                                            --output_dir ./checkpoints_sve/llava-Qwen2.5_geo170k_qa_tuned \
                                             --num_train_epochs 2 \
                                             --per_device_train_batch_size 6 \
                                             --per_device_eval_batch_size 4 \
