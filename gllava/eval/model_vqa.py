@@ -107,8 +107,8 @@ def eval_model(args):
         with torch.inference_mode():
             output_ids = model.generate(
                 input_ids,
-                images=image_tensor.unsqueeze(0).half().cuda(),
-                image_glips=image_glip.unsqueeze(0).half().cuda(),
+                images=image_tensor.unsqueeze(0).to(torch.bfloat16).cuda(),
+                image_glips=image_glip.unsqueeze(0).to(torch.bfloat16).cuda(),
                 do_sample=True if args.temperature > 0 else False,
                 temperature=args.temperature,
                 top_p=args.top_p,
