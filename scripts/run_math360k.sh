@@ -15,7 +15,7 @@ deepspeed gllava/train/train.py \
     --image_aspect_ratio pad \
     --group_by_modality_length True \
     --bf16 True \
-    --output_dir ./checkpoints_sve/Qwen2.5_sft_math360k \
+    --output_dir ./checkpoints_sve/llava-Qwen2.5_sft_math360k \
     --num_train_epochs 2 \
     --per_device_train_batch_size 16 \
     --per_device_eval_batch_size 4 \
