@@ -9,9 +9,8 @@ Implementation of the paper Open Eyes, Then Reason: Fine-grained Visual Mathemat
 - 🎉 **[2024-12-26]:** Released model weights of [SVE-Math-Qwen2.5-7B](https://huggingface.co/NetMindAI/SVE-Math-Qwen2.5-7B).
 ## ✨ TODO
 - [x] Release the evaluation code for MultiModal Math Benchmarks.
-- [ ] Release model weights of SVE-Math-7B, SVE-Math-Deepseek-7B and SVE-Math-Qwen2.5-7B.
+- [x] Release model weights of SVE-Math-7B, SVE-Math-Deepseek-7B and SVE-Math-Qwen2.5-7B.
 - [x] Release model weights of GeoGLIP.
-- [ ] Release the training code and scripts of GeoGLIP.
 ## 📖 Introduction
 
 This paper introduces SVE-Math, a novel approach to solving visual mathematical reasoning tasks by integrating fine-grained visual perception into Multimodal Large Language Models (MLLMs). Traditional MLLMs often struggle with visual reasoning due to their limited ability to recognize and interpret geometric primitives and spatial locations. SVE-Math is the first to design GeoGLIP (Geometric-Grounded Language-Image Pre-training), a lightweight, geometry-aware visual model with multitask learning capabilities, including **shape grounding, junction detection, and boundary detection**. GeoGLIP integrates seamlessly with diverse LLM backbones without requiring modifications to their reasoning components. Our framework aims to bridge the gap between visual perception and logical reasoning for mathematical problems, providing a robust system capable of addressing mathematical challenges through fine-grained visual perception.
