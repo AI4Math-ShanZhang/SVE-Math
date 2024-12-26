@@ -1,4 +1,4 @@
-model_save_path="./checkpoints_sve/Qwen2.5_sft_math360k"
+model_save_path="./checkpoints_sve/SVE-Math-Deepseek-7B"
 output_file="pred_checkpoints_release.json"
 
 python3 eval_mathvista/response.py \
