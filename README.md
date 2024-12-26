@@ -75,7 +75,7 @@ playground/
 │   │   ├── testmini.json
 ```
 ## 🌟 Training 
-Please load the model weights, including the LLM Qwen-2.5 and our visual encoder GeoGLIP. For convenience, we have released the model [Qwen2.5-Math-7B-Instruct-GeoGLIP](https://huggingface.co/zs0506/Qwen2.5-Math-7B-Instruct-GeoGLIP) for easy access. You sholud save it in the checkpoint folder.
+Please load the model weights, including the LLM Qwen-2.5 and our visual encoder GeoGLIP. For convenience, we have released the model [Qwen2.5-Math-7B-Instruct-GeoGLIP](https://huggingface.co/zs0506/Qwen2.5-Math-7B-Instruct-GeoGLIP) for easy access. You sholud save it in the checkpoint folder before launching the training scripts.
 - **MathV360K**
 
   Run full-finetuning:
