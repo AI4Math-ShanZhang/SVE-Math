@@ -1,7 +1,7 @@
 #!/bin/bash
 deepspeed gllava/train/train.py \
     --deepspeed ./scripts/zero3.json \
-    --model_name_or_path  ./checkpoints_sve/Qwen2.5_sft_llava \
+    --model_name_or_path  ./checkpoint/Qwen2.5-Math-7B-Instruct-GeoGLIP \
     --version qwen_2 \
     --mm_projector_lr 3e-5 \
     --visual_merge_lr 3e-6 \
