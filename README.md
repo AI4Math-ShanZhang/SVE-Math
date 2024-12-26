@@ -4,6 +4,9 @@ Implementation of the paper Open Eyes, Then Reason: Fine-grained Visual Mathemat
 
 - 🎉 **[2024-12-10]:** Released the code for SVE-Math-Qwen2.5-7B.
 - 🎉 **[2024-12-12]:** Released model weights of [GeoGLIP](https://huggingface.co/zs0506/GeoGLIP).
+- 🎉 **[2024-12-26]:** Released model weights of [SVE-Math-7B](https://huggingface.co/NetMindAI/SVE-Math-7B).
+- 🎉 **[2024-12-26]:** Released model weights of [SVE-Math-Deepseek-7B](https://huggingface.co/NetMindAI/SVE-Math-Deepseek-7B).
+- 🎉 **[2024-12-26]:** Released model weights of [SVE-Math-Qwen2.5-7B](https://huggingface.co/NetMindAI/SVE-Math-Qwen2.5-7B).
 ## ✨ TODO
 - [x] Release the evaluation code for MultiModal Math Benchmarks.
 - [ ] Release model weights of SVE-Math-7B, SVE-Math-Deepseek-7B and SVE-Math-Qwen2.5-7B.
@@ -20,7 +23,7 @@ This paper introduces SVE-Math, a novel approach to solving visual mathematical 
 - **Lightweight and Modular Design**: Seamlessly integrates into existing LLMs (e.g., [LLaMA2](https://huggingface.co/docs/transformers/model_doc/llama2), [Qwen2.5-Math-Instruct](https://huggingface.co/Qwen/Qwen2.5-Math-7B-Instruct) and [DeepSeek-Math-Instruct](https://huggingface.co/deepseek-ai/deepseek-math-7b-instruct)), requiring minimal computational overhead.
 - **Fine-Grained Visual Understanding**: GeoGLIP is trained on multiple tasks using box- and pixel-level supervision to ensure precise perception of geometric primitives and visual entities.
 - **Mind’s Eye**:  Unlike previous works that focus on constructing large-scale mathematical visual instruction datasets for training MLLMs, our approach emphasizes visual-centric tasks. It complements reasoning-focused methods by addressing the gap in visual perception—an area that has received less attention in existing research.
-- **State-of-the-Art Results among 7B counterparts**: SVE-Math-Qwen2.5-7B outperforms other 7B models by 12\% on MathVerse and is compatible with GPT-4V on MathVista (50.4\% vs. 49.9\%). Despite being trained on smaller datasets (Geo170K), our method matches the performance of models trained on significantly larger datasets, evaluated on GeoQA (79.6\%). 
+- **State-of-the-Art Results among 7B counterparts**: SVE-Math-Qwen2.5-7B outperforms other 7B models by 15\% on MathVerse and is compatible with GPT-4V on MathVista (50.4\% vs. 49.9\%). Despite being trained on smaller datasets (Geo170K), our method matches the performance of models trained on significantly larger datasets, evaluated on GeoQA (79.6\%). 
 
 ---
 ## 📊 Case studies
