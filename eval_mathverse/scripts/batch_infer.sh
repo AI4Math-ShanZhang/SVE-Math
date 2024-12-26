@@ -1,4 +1,4 @@
-model_path="./checkpoints_sve/SVE-Math-Deepseek-7B"
+model_path="./checkpoints_sve/SVE-Math-Qwen2.5-7B"
 answers_file="./eval_mathverse/outputs/pred_multimath-7b-llava-v1_5.json"
 
 CHUNKS=8
