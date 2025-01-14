@@ -127,7 +127,7 @@ If you find our code and dataset helpful to your research, please consider citin
       title={Open Eyes, Then Reason: Fine-grained Visual Mathematical Understanding in MLLMs}, 
       author={Shan Zhang, Aotian Chen, Yanpeng Sun, Jindong Gu, Yi-Yu Zheng, Piotr Koniusz, Kai Zou, Anton van den Hengel, Yuan Xue},
       year={2024},
-      eprint={...},
+      eprint={arXiv:2501.06430},
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
