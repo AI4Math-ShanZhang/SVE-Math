@@ -1,5 +1,5 @@
 # <img src="./images/logo1.png" alt="Example Image" width="36" height="36"> Open Eyes, Then Reason: Fine-grained Visual Mathematical Understanding in MLLMs (SVE-Math)
-Implementation of the paper Open Eyes, Then Reason: Fine-grained Visual Mathematical Understanding in MLLMs
+Implementation of the paper [Open Eyes, Then Reason: Fine-grained Visual Mathematical Understanding in MLLMs](https://arxiv.org/pdf/2501.06430)
 ## 🔔 News
 
 - 🎉 **[2024-12-10]:** Released the code for SVE-Math-Qwen2.5-7B.
