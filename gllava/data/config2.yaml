@@ -1,0 +1,31 @@
+datasets:
+
+  - type: instruct
+    ann_file: '../GLIP-LLaVA/playground/MathV360K/train_samples_all_tuning.json'
+    img_prefix: '../GLIP-LLaVA/playground/MathV360K/data_images/'
+    ratio: 1.0
+    conv_temp: 'llava'
+
+  # - type: instruct
+  #   ann_file: '../GLIP-LLaVA/playground/llava_v1_5_mix665k.json'
+  #   img_prefix: '../GLIP-LLaVA/playground/'
+  #   ratio: 1.0
+  #   conv_temp: 'llava'
+
+  - type: instruct
+    ann_file: '../GLIP-LLaVA/playground/multimath-300k/solution/chat_train_zh.json'
+    img_prefix: '../GLIP-LLaVA/playground/multimath-300k/RGB_images/'
+    ratio: 0.5
+    conv_temp: 'llava'
+
+  - type: instruct
+    ann_file: '../GLIP-LLaVA/playground/multimath-300k/solution/chat_train_en.json'
+    img_prefix: '../GLIP-LLaVA/playground/multimath-300k/RGB_images/'
+    ratio: 0.5
+    conv_temp: 'llava'
+
+  - type: instruct
+    ann_file: '../GLIP-LLaVA/playground/data/Geo170K/qa_tuning.json'
+    img_prefix: '../GLIP-LLaVA/playground/data/Geo170K/images/'
+    ratio: 1.0
+    conv_temp: 'llava'
