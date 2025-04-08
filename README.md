@@ -7,6 +7,7 @@ Implementation of the paper [Open Eyes, Then Reason: Fine-grained Visual Mathema
 - 🎉 **[2024-12-26]:** Released model weights of [SVE-Math-7B](https://huggingface.co/NetMindAI/SVE-Math-7B).
 - 🎉 **[2024-12-26]:** Released model weights of [SVE-Math-Deepseek-7B](https://huggingface.co/NetMindAI/SVE-Math-Deepseek-7B).
 - 🎉 **[2024-12-26]:** Released model weights of [SVE-Math-Qwen2.5-7B](https://huggingface.co/NetMindAI/SVE-Math-Qwen2.5-7B).
+- 🎉 **[2025-04-08]:** Released model weights of [SVE-Math-Deepseek+-7B](https://huggingface.co/zs0506/SVE-Math-DeepSeek-7B).
 ## ✨ TODO
 - [x] Release the evaluation code for MultiModal Math Benchmarks.
 - [x] Release model weights of SVE-Math-7B, SVE-Math-Deepseek-7B and SVE-Math-Qwen2.5-7B.
