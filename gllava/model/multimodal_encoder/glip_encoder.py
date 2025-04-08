@@ -5,7 +5,6 @@ from gllava.model.GLIP.backbone import swint
 from gllava.model.GLIP.backbone import fpn as fpn_module
 from gllava.model.GLIP.backbone import BJunc 
 from gllava.model.GLIP.backbone.dropblock import DropBlock2D 
-from gllava.model.GLIP.vision_merge import VisionTokenMerge
 from collections import OrderedDict
 
 
