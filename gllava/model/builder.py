@@ -42,7 +42,7 @@ def load_pretrained_model(model_path, model_base, model_name, num_of_kvs,merge_v
     # glips_args={"num_of_kvs":num_of_kvs,"merge_version":merge_version}#"merge_version":merge_version
 
     # kwargs.update(glips_args)
-    if 'llava' in model_name.lower():
+    if 'llava' in model_name.lower() or 'sve' in model_name.lower():
         # Load LLaVA model
         if 'lora' in model_name.lower() and model_base is None:
             warnings.warn('There is `lora` in model name but no `model_base` is provided. If you are loading a LoRA model, please provide the `model_base` argument. Detailed instruction: https://github.com/haotian-liu/LLaVA#launch-a-model-worker-lora-weights-unmerged.')
@@ -112,6 +112,12 @@ def load_pretrained_model(model_path, model_base, model_name, num_of_kvs,merge_v
                 model = LlavaQwenForCausalLM.from_pretrained(model_path, low_cpu_mem_usage=True, config=cfg_pretrained, **kwargs)
                 # print("---tokenizer---", tokenizer)
                 # print("---model---", model)
+            elif 'deepseek' in model_name.lower():
+                tokenizer = AutoTokenizer.from_pretrained(model_path, use_fast=True if model_path.find("dk")!=-1 or model_path.find("deepseek")!=-1 else False)
+                model = LlavaLlamaForCausalLM.from_pretrained(model_path, low_cpu_mem_usage=True, **kwargs)
+                if model_path.find("dk")!=-1 or model_path.find("deepseek")!=-1: 
+                    tokenizer.pad_token = tokenizer.unk_token
+                    model.config.pad_token_id = tokenizer.pad_token_id
             else:
                 tokenizer = AutoTokenizer.from_pretrained(model_path, use_fast=False)
                 model = LlavaLlamaForCausalLM.from_pretrained(model_path, low_cpu_mem_usage=True, **kwargs)
@@ -139,7 +145,7 @@ def load_pretrained_model(model_path, model_base, model_name, num_of_kvs,merge_v
 
     image_processor = None
 
-    if 'llava' in model_name.lower():
+    if 'llava' in model_name.lower() or 'sve' in model_name.lower():
         mm_use_im_start_end = getattr(model.config, "mm_use_im_start_end", False)
         mm_use_im_patch_token = getattr(model.config, "mm_use_im_patch_token", True)
         if mm_use_im_patch_token:
