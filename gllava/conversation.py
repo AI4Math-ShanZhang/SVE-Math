@@ -334,6 +334,17 @@ You are a helpful assistant.""",
     sep_style=SeparatorStyle.CHATML,
     sep="<|im_end|>",
 )
+conv_deepseek = Conversation(
+    system="A chat between a curious user and an artificial intelligence assistant. "
+    "The assistant gives helpful, detailed, and polite answers to the user's questions.",
+    roles=("USER", "ASSISTANT"),
+    version="v1",
+    messages=(),
+    offset=0,
+    sep_style=SeparatorStyle.TWO,
+    sep=" ",
+    sep2="<｜end▁of▁sentence｜>",
+)
 # conv_qwen_2 = Conversation(
 #     system="A chat between a curious user and an artificial intelligence assistant. "
 #     "The assistant gives helpful, detailed, and polite answers to the user's questions.",
@@ -437,6 +448,7 @@ conv_templates = {
 
     "mpt": conv_mpt,
     "qwen_2": conv_qwen_2,
+    "llava_deepsk": conv_deepseek,
     "gemma_instruct": conv_gemma_instruct,
 }
 
