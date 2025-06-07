@@ -125,7 +125,7 @@ Special thanks to our collaborators and contributors for their invaluable suppor
 
 If you find our code and dataset helpful to your research, please consider citing us with this BibTeX:
 ```
-@misc{,
+@misc{zhang2025openeyesreasonfinegrained,
       title={Open Eyes, Then Reason: Fine-grained Visual Mathematical Understanding in MLLMs}, 
       author={Shan Zhang, Aotian Chen, Yanpeng Sun, Jindong Gu, Yi-Yu Zheng, Piotr Koniusz, Kai Zou, Anton van den Hengel, Yuan Xue},
       year={2024},
