@@ -133,4 +133,10 @@ If you find our code and dataset helpful to your research, please consider citin
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
+@article{zhang2025primitive,
+  author    = {Shan Zhang and Aotian Chen and Yanpeng Sun and Jindong Gu and Yi-Yu Zheng and Piotr Koniusz and Kai Zou and Anton van den Hengel and Yuan Xue},
+  title     = {Primitive Vision: Improving Diagram Understanding in MLLMs},
+  booktitle = {Proceedings of the 42th International Conference on Machine Learning},
+  year      = {2025}
+}
 ```
